@@ -18,20 +18,69 @@ body {
   font-size: 28px;
   background-color: #4aaaa5;
   font-weight: bolder;
-  height: 90px;
-  line-height: 90px;
+  line-height: 80px;
   padding-left: 35px;
   padding-right: 35px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 #header-color {
-    color: #ffffff;
+  color: #ffffff;
+}
+
+.navbar {
+  padding: 0rem 1rem;
 }
 
 nav {
-  height: 90px;
   background-color: #ffffff;
   border-bottom: solid 2px #cccccc;
+  line-height: 0.75;
+}
+
+h1 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #4aaaa5;
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+h2 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #4aaaa5;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.hr1 {
+  border-width: 2px;
+  color: #cccccc;
+}
+
+.nav-link {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+  text-decoration: none;
+}
+
+h4 {
+  position: absolute;
+  left: 0; bottom: 5%;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #ffffff;
+  font-size: 22px;
+  width: 100%;
+  line-height: 60px;
+  background-color: #4aaaa5;
+}
+
+button {
+  background-color: #4aaaa5;
+  border: none;
+  width: 115px;
+  height: 40px;
+  color: #ffffff;
 }
 
 .footer {
@@ -52,5 +101,4 @@ nav {
 
 .portfolio-card {
   border: none;
-  padding: initial;
 }
