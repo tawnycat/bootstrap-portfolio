@@ -2,49 +2,61 @@
 <html>
 <head>
 	<title>Tawny Cataldo</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 </head>
 <body>
-	<header>
-		<h1>Tawny Cataldo</h1>
-		<nav>
-			<ul>
-				<li><a href="index.html">About</a></li>
-				<li><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-	<div class="maincontent">
-		<h2>Contact</h2>
-		<hr class="hr1">
-		<form>
-			Name
-			<br>
-			<input type="text" name="name" value="John Smith"><br>
-			Email
-			<br>
-			<input type="email" name="email" value="example@gmail.com"><br>
-			Message
-			<br>
-			<textarea name="message" id="message"></textarea>
-			<br>
-			<input type="submit" value="Submit">
-		</form>
-		<div class="push"></div>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container">
+			<a class="navbar-brand">Tawny Cataldo</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="portfolio.html">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="card">
+					<div class="card-header">
+						Blah
+					</div>
+					<div class="card-body">
+						<h4 class="card-title">Special title treatment</h4>
+						<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+						<a href="#" class="btn btn-primary">Go somewhere</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+					<div class="card-header">
+						Connect with Me
+					</div>
+					<div class="card-body">
+						<ul>
+							<li><img src="assets/images/if_github_386637.png"></li>
+							<li><img src="assets/images/if_linkedin_386655.png"></li>
+							<li><img src="assets/images/if_overflow_386674.png"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-	<aside>
-		<h3>Connect with Me</h3>
-		<hr class="hr2">
-		<ul id="marginlist">
-			<li class="noborderlist"><a href="https://github.com/tawnycat"><img src="assets/images/if_github_386637.png" alt="Github Link"></a></li>
-			<li class="noborderlist"><a href="https://www.linkedin.com/in/tawny-cataldo/"><img src="assets/images/if_linkedin_386655.png" alt="LinkedIn Link"></a></li>
-			<li class="noborderlist"><a href="https://stackoverflow.com/users/8315899/t-cat?tab=profile"><img src="assets/images/if_overflow_386674.png" alt="Stack Overflow Link"></a></li>
-		</ul>
-	</aside>
-	<footer>
-		&copy; Copyright 2017 Tawny Cataldo
-	</footer>
 </body>
 </html>
